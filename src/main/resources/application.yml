@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gatewaydemozuul
+server:
+  port: 18902
+zuul:
+  routes:
+    gatewaydemo1: /myProduct/**
+management:
+  security:
+    enabled: false
